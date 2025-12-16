@@ -5,7 +5,7 @@
 #include <QMap>
 #include <QTimer>
 #include <QStandardItemModel>
-#include "modelmanager.h" // [修复] 必须包含，因为用到了 ModelType
+#include "modelmanager.h"
 
 class NavBtn;
 class MonitorWidget;

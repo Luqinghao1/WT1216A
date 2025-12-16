@@ -1,19 +1,19 @@
-#include "modelwidget3.h"
-#include "ui_modelwidget3.h"
+#include "modelwidget5.h"
+#include "ui_modelwidget5.h"
 
-ModelWidget3::ModelWidget3(QWidget *parent) :
+ModelWidget5::ModelWidget5(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::ModelWidget3)
+    ui(new Ui::ModelWidget5)
 {
     ui->setupUi(this);
 }
 
-ModelWidget3::~ModelWidget3()
+ModelWidget5::~ModelWidget5()
 {
     delete ui;
 }
 
-ModelCurveData ModelWidget3::calculateTheoreticalCurve(const QMap<QString, double>& params,
+ModelCurveData ModelWidget5::calculateTheoreticalCurve(const QMap<QString, double>& params,
                                                        const QVector<double>& providedTime)
 {
     return std::make_tuple(QVector<double>(), QVector<double>(), QVector<double>());
